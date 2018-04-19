@@ -1,6 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<link rel="icon" href="images/mldn.ico" type="image/x-icon" />
-<title>MLDN报名预约系统</title>
+<title>糖尿病资讯网</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script type="text/javascript" src="jquery/jquery.min.js"></script>

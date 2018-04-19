@@ -16,7 +16,7 @@
 		<!-- /.search form -->
 		<!-- sidebar menu: : style can be found in sidebar.less -->
 		<ul class="sidebar-menu">
-			<li class="header"><i class="fa fa-slack"></i> MLDN报名预约系统</li>
+			<li class="header"><i class="fa fa-slack"></i> 糖尿病资讯网管理系统</li>
 			<li class="${param.role=='member' ? 'active' : ''} treeview"><a href="<%=basePath%>pages/back/index.jsp"> <i
 					class="fa fa-group"></i> 
 					<span>用户管理</span> <i class="fa fa-angle-left pull-right"></i>
