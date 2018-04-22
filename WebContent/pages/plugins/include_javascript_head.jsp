@@ -1,5 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <title>糖尿病资讯网</title>
+<link rel="icon" href="images/diabetes.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script type="text/javascript" src="jquery/jquery.min.js"></script>
@@ -13,3 +14,18 @@
 <link type="text/css" rel="stylesheet" href="dist/plugins/font-awesome/css/font-awesome.min.css">
 <link type="text/css" rel="stylesheet" href="dist/css/AdminLTE.min.css">
 <link type="text/css" rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+<!--  <style type="text/css">  
+            html,body{  
+                width:100%;  
+                height:100%;  
+                margin:0;  
+                padding:0;  
+                overflow: hidden;  
+            }  
+            .id{  
+                width:100%;  
+                height:100%;  
+                background:lime;  
+                margin:0 auto;  
+            }  
+        </style> -->

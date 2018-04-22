@@ -26,13 +26,13 @@
 		<div id="newsDiv" class="row">
 			<div class="col-md-12">
 				<div class="panel panel-info">
-					<div class="panel-heading"><strong><span class="glyphicon glyphicon-user"></span>&nbsp;内部用户登录</strong></div>
+					<div class="panel-heading"><strong><span class="glyphicon glyphicon-user"></span>&nbsp;糖友登录</strong></div>
 					<div class="panel-body">
 						<form action="<%=loginUrl%>" id="myform" method="post" class="form-horizontal">
 							<div class="form-group" id="midDiv">
 								<label class="col-md-2 control-label" for="mid">登录账号：</label>
 								<div class="col-md-5">
-									<input type="text" name="mid" id="mid" class="form-control input-sm" placeholder="请输入管理员为您提供的帐号...">
+									<input type="text" name="mid" id="mid" class="form-control input-sm" placeholder="请输入登录帐号...">
 								</div>
 								<div class="col-md-4" id="midMsg">*</div>
 							</div>
@@ -69,7 +69,7 @@
 						</form>
 					</div>
 					<div class="panel-footer text-right">
-						<span class="glyphicon glyphicon-warning-sign"></span>&nbsp;忘记密码，请联系管理员
+						<span class="glyphicon glyphicon-warning-sign"></span>&nbsp;忘记密码，请联系管理员联系电话（010-12345678）
 					</div>
 				</div>
 			</div>

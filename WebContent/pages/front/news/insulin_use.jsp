@@ -17,32 +17,33 @@
 		</div>
 		<div id="adDiv" class="row">
 			<div class="col-md-12 col-xs-12">
-				<jsp:include page="/pages/plugins/include_ad.jsp" />
+				<jsp:include page="/pages/plugins/include_ad2.jsp" />
 			</div>
 		</div>
 		<div id="newsDiv" class="row">
 			<div class="col-md-12">
-				<div class="panel panel-danger">
-					<div class="panel-heading">
+				<div class="panel panel-default"  style="border: 6px solid #255FAD;">
+					<div class="panel-heading"
+						style="color: #255FAD;background-color: #D6EEF3;border-color: #D6EEF3;" >
 						<strong><span class="glyphicon glyphicon-question-sign"></span>&nbsp;胰岛素使用</strong>
 					</div>
 					<div class="panel-body">
 
 						<div>
-							<div class="panel-heading">面板标题</div>
+							<div class="panel-heading"><a style="color: #255FAD;" href="pages/front/news/news_show.jsp">面板标题</a></div>
 							<table class="table" >
 								<tr>
-									<td><img src="images/news/fp1.jpg" alt=""></td>
+									<td><img src="images/news/fp1.jpg"  style="height: 150px; width:200px;"></td>
 									<td>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述
 									文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</td>
 								</tr>
 							</table>
 						</div>
 						<div>
-							<div class="panel-heading">面板标题</div>
+							<div class="panel-heading"><a style="color: #255FAD;" href="pages/front/news/news_show.jsp">面板标题</a></div>
 							<table class="table">
 								<tr>
-									<td><img src="images/news/fp1.jpg" alt=""></td>
+									<td><img src="images/news/fp1.jpg"  style="height: 150px; width:200px;"></td>
 									<td>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述
 									文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</td>
 								</tr>
@@ -50,7 +51,7 @@
 						</div>
 						<jsp:include page="/pages/plugins/include_splitpage_bar.jsp" />
 					</div>
-					<div class="panel-footer"></div>
+					<div class="panel-footer" style="background-color:#255FAD;"></div>
 				</div>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<title>MLDN报名预约</title>
+<title>糖尿病资讯网</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" href="images/mldn.ico" type="image/x-icon" />
+<link rel="icon" href="images/diabetes.ico" type="image/x-icon" />
 <script type="text/javascript" src="jquery/jquery.min.js"></script>
 <script type="text/javascript" src="jquery/jquery.validate.min.js"></script>
 <script type="text/javascript" src="jquery/additional-methods.min.js"></script>

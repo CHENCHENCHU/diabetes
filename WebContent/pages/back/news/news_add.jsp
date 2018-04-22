@@ -21,53 +21,58 @@
 			<jsp:param name="action" value="news:add"/>
 		</jsp:include>
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<strong><i class="fa fa-file-picture-o"></i>&nbsp;发布公告</strong>
+					<strong><i class="fa fa-file-picture-o"></i>&nbsp;发布资讯</strong>
 				</div>
 				<div class="panel-body">
 					<form action="<%=addNewsUrl%>" id="myform" method="post" class="form-horizontal" enctype="multipart/form-data">
 						<div class="form-group" id="titleDiv">
-							<label class="col-md-2 control-label" for="title">公告标题：</label>
+							<label class="col-md-2 control-label" for="title">资讯标题：</label>
 							<div class="col-md-5">
-								<input type="text" name="title" id="title" class="form-control input-sm" placeholder="请输入公告标题">
+								<input type="text" name="title" id="title" class="form-control input-sm" placeholder="请输入资讯标题">
 							</div>
 							<div class="col-md-4" id="titleMsg">*</div>
 						</div>
 						<div class="form-group" id="absDiv">
-							<label class="col-md-2 control-label" for="abs">公告摘要：</label>
+							<label class="col-md-2 control-label" for="abs">资讯摘要：</label>
 							<div class="col-md-5">
-								<input type="text" name="abs" id="abs" class="form-control input-sm" placeholder="请输入公告摘要">
+								<input type="text" name="abs" id="abs" class="form-control input-sm" placeholder="请输入资讯摘要">
 							</div>
 							<div class="col-md-4" id="absMsg">*</div>
 						</div>
 						<div class="form-group" id="typeDiv">
-							<label class="col-md-2 control-label" for="type">公告分类：</label>
+							<label class="col-md-2 control-label" for="type">资讯分类：</label>
 							<div class="col-md-5">
 								<select id="type" name="type" class="form-control">
-									<option value="">====== 请选择欲发布公告类型 ======</option>
-									<option value="1">课程更新</option>
-									<option value="2">新班开班</option>
-									<option value="2">企业招聘</option>
+									<option value="">====== 请选择欲发布资讯类型 ======</option>
+									<option value="1">病因</option>
+									<option value="2">诊断</option>
+									<option value="3">治疗</option>
+									<option value="4">糖尿病常识</option>
+									<option value="5">胰岛素使用</option>
+									<option value="6">血统控制</option>
+									<option value="7">妊娠期糖尿病</option>
+									<option value="8">少年尿病</option>
 								</select>
 							</div> 
 							<div class="col-md-4" id="typeDMsg">*</div>
 						</div>
 						<div class="form-group" id="picDiv">
-							<label class="col-md-2 control-label" for="pic">公告图片：</label>
+							<label class="col-md-2 control-label" for="pic">资讯图片：</label>
 							<div class="col-md-5">
-								<input type="file" name="pic" id="pic" class="form-control input-sm" placeholder="请选择公告所需要的图片">
+								<input type="file" name="pic" id="pic" class="form-control input-sm" placeholder="请选择资讯所需要的图片">
 							</div>
 							<div class="col-md-4" id="picMsg">*</div>
 						</div>
 						<div class="form-group" id="noteDiv">
-							<label class="col-md-2 control-label" for="status">公告内容：</label>
+							<label class="col-md-2 control-label" for="status">资讯内容：</label>
 							<div class="col-md-9">
 								<textarea id="note" name="note" class="form-control" rows="10"></textarea>
 							</div>
 						</div>
 						<div class="form-group" id="statusDiv">
-							<label class="col-md-2 control-label" for="status">公告状态：</label>
+							<label class="col-md-2 control-label" for="status">资讯状态：</label>
 							<div class="col-md-5">
 								<div class="radio-inline">
 									<input type="radio" id="status" name="status" checked value="1">直接发布

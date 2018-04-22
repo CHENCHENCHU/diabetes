@@ -20,9 +20,9 @@
 			<jsp:param name="action" value="member:add"/>
 		</jsp:include>
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<strong><i class="fa fa-user-md"></i>&nbsp;修改管理员密码</strong>
+					<strong><i class="fa fa-user-md"></i>&nbsp;修改密码</strong>
 				</div>
 				<div class="panel-body">
 					<form action="<%=passwordMemberUrl%>" id="myform" method="post" class="form-horizontal">

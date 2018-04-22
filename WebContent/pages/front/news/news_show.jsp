@@ -17,13 +17,13 @@
 		</div>
 		<div id="adDiv" class="row">
 			<div class="col-md-12 col-xs-12">
-				<jsp:include page="/pages/plugins/include_ad.jsp" />
+				<jsp:include page="/pages/plugins/include_ad2.jsp" />
 			</div>
 		</div>
 		<div id="newsDiv" class="row">
 			<div class="col-md-12">
 				<div class="panel panel-info">
-					<div class="panel-heading"><strong><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;信息查看</strong></div>
+					<div class="panel-heading"><strong><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;详细内容</strong></div>
 					<div class="panel-body">
 						<div class="text-center h2">我们牛逼了</div>
 						<div class="text-primary"><strong>新闻摘要：</strong>总之我们很牛逼了。</div>

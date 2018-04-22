@@ -1,10 +1,10 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <header class="main-header">
-
+	<script type="text/javascript" src="js/pages/back/admin/admin_password.js"></script>
 	<!-- Logo -->
 	<a href="pages/back/index.jsp" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
-		<span class="logo-mini"><b>M</b>B</span> <!-- logo for regular state and mobile devices -->
-		<span class="logo-lg"><b>MLDN</b>Bespeak</span>
+		<span class="logo-mini"><b>后台</b></span> <!-- logo for regular state and mobile devices -->
+		<span class="logo-lg"><b>糖尿病资讯后台管理</b></span>
 	</a>
 
 	<!-- Header Navbar: style can be found in header.less -->
@@ -18,24 +18,18 @@
 			<ul class="nav navbar-nav">
 				<li class="dropdown user user-menu"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown"> <img
-						src="upload/news/nophoto.gif" class="user-image" alt="User Image">
-						<span class="hidden-xs">李兴华</span>
+						src="images/user/nophoto.gif" class="user-image" alt="User Image">
+						<span class="hidden-xs">楚琛琛</span>
 				</a>
 					<ul class="dropdown-menu"> 
 						<!-- User image -->
-						<li class="user-header"><img src="upload/news/nophoto.gif"
+						<li class="user-header"><img src="images/user/nophoto.gif"
 							class="img-circle" alt="User Image">
 						</li>
 						<!-- Menu Body -->
-						<li>
-							<div class="text-center">
-								
-							</div>
-						</li>
 						<!-- Menu Footer-->
 						<li class="user-footer">
 							<div class="text-center">
-								<a href="pages/back/member/member_password.jsp" class="btn btn-warning btn-flat"><i class="fa fa-puzzle-piece"></i>&nbsp;修改密码</a>
 								<a href="#" class="btn btn-danger btn-flat"><i class="fa fa-xing"></i>&nbsp;系统注销</a>
 							</div>
 						</li>
@@ -45,6 +39,6 @@
 						class="fa fa-gears"></i></a></li>
 			</ul>
 		</div>
-
 	</nav>
+	
 </header>

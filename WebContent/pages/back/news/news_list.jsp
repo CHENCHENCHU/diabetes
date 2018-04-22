@@ -21,13 +21,13 @@
 			<jsp:param name="action" value="news:${param.type }"/>
 		</jsp:include>
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<c:if test="${param.type == 'list' }">
-						<strong><i class="fa fa-list-ul"></i>&nbsp;已发布公告列表</strong>
+						<strong><i class="fa fa-list-ul"></i>&nbsp;已发布资讯列表</strong>
 					</c:if>
 					<c:if test="${param.type == 'unlist' }">
-						<strong><i class="fa fa-archive"></i>&nbsp;未发布公告列表</strong>
+						<strong><i class="fa fa-archive"></i>&nbsp;未发布资讯列表</strong>
 					</c:if>
 				</div>
 				<div class="panel-body">
@@ -38,7 +38,6 @@
 							<th width="50%" class="text-center">标题</th> 
 							<th width="15%" class="text-center">发布者</th>
 							<th width="15%" class="text-center">发布日期</th>
-							<th width="10%" class="text-center">发布状态</th>
 							<th width="5%" class="text-center">操作</th>
 						</tr>
 						<tr>
@@ -46,12 +45,13 @@
 							<td class="text-center">我们要一起面对困难</td>
 							<td class="text-center">admin</td>
 							<td class="text-center">2019-10-10</td>
-							<td class="text-center">已发布</td>
 							<td class="text-center"><a href="<%=editNewsUrl%>" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-edit"></span>&nbsp;编辑</a></td>
 						</tr>
 					</table>
-					<a href="<%=addNewsUrl%>" id="addBtn" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;发布公告</a>
-					<button id="removeBtn" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove"></span>&nbsp;删除公告</button>
+					<c:if test="${param.type == 'unlist' }">
+						<a href="<%=addNewsUrl%>" id="addBtn" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;发布资讯</a>
+					</c:if>
+					<button id="removeBtn" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove"></span>&nbsp;删除资讯</button>
 					<jsp:include page="/pages/plugins/include_splitpage_bar.jsp"/>
 				</div>
 				<div class="panel-footer" style="height:80px;">

@@ -17,7 +17,7 @@
 		</div>
 		<div id="adDiv" class="row">
 			<div class="col-md-12 col-xs-12">
-				<jsp:include page="/pages/plugins/include_ad.jsp" />
+				<jsp:include page="/pages/plugins/include_ad2.jsp" />
 			</div>
 		</div>
 		<div id="newsDiv" class="row">

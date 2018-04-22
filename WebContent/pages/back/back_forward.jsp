@@ -14,7 +14,7 @@
 		<!-- 导入左边菜单项 -->
 		<jsp:include page="/pages/plugins/include_menu_item.jsp" />
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<strong><i class="fa-area-chart"></i>&nbsp;操作完成</strong>
 				</div>

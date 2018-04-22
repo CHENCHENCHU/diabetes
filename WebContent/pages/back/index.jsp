@@ -19,18 +19,18 @@
 		<!-- 导入左边菜单项 -->
 		<jsp:include page="/pages/plugins/include_menu_item.jsp" />
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<strong><i class="fa fa-user-md"></i>&nbsp;用户中心</strong>
+					<strong><i class="fa fa-user-md"></i>&nbsp;后台管理中心</strong>
 				</div>
 				<div class="panel-body">
 					<table class="table table-bordered table-hover">
 						<tr>
-							<td colspan="3"><span class="h1"><span class="glyphicon glyphicon-user"></span>&nbsp;欢迎“${admin.userid}”光临！</span></td>
+							<td colspan="3"><span class="h1"><span class="glyphicon glyphicon-user"></span>&nbsp;欢迎【${admin.userid}】光临！</span></td>
 						</tr>
 						<tr>
 							<td rowspan="6" style="width:130px;">
-								<img src="upload/news/nophoto.gif" class="image" style="height:128px;width:128px;">
+								<img src="images/ad/diabetes.jpg" class="image" style="height:130px;width:130px;">
 							</td>
 						</tr>
 						<tr>
@@ -38,19 +38,15 @@
 							<td>2020-10-12</td>
 						</tr>
 						<tr>
-							<td><strong>总预约数量：</strong></td>
+							<td><strong>总留言：</strong></td>
 							<td>20</td>
 						</tr>
 						<tr>
-							<td><strong>新的预约：</strong></td>
+							<td><strong>新的留言：</strong></td>
 							<td>20</td>
 						</tr>
 						<tr>
-							<td><strong>未处理预约：</strong></td>
-							<td>20</td>
-						</tr>
-						<tr>
-							<td><strong>已处理预约：</strong></td>
+							<td><strong>已处理留言：</strong></td>
 							<td>20</td>
 						</tr>
 					</table>

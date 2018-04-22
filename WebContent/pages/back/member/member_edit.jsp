@@ -20,30 +20,30 @@
 			<jsp:param name="action" value="member:add"/>
 		</jsp:include>
 		<div class="content-wrapper">
-			<div class="panel panel-success">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<strong><i class="fa fa-user-md"></i>&nbsp;编辑管理员账户</strong>
+					<strong><i class="fa fa-user-md"></i>&nbsp;编辑用户</strong>
 				</div>
 				<div class="panel-body">
 					<form action="<%=editMemberUrl%>" id="myform" method="post" class="form-horizontal">
 						<div class="form-group" id="midDiv">
 							<label class="col-md-2 control-label" for="mid">登录帐号：</label>
 							<div class="col-md-5">
-								<input type="text" name="mid" id="mid" class="form-control input-sm" placeholder="请输入雇员真实姓名">
+								<input type="text" name="mid" id="mid" class="form-control input-sm" placeholder="请输入用户姓名">
 							</div>
 							<div class="col-md-4" id="midMsg">*</div>
 						</div>
 						<div class="form-group" id="nameDiv">
 							<label class="col-md-2 control-label" for="name">真实姓名：</label>
 							<div class="col-md-5">
-								<input type="text" name="name" id="name" class="form-control input-sm" placeholder="请输入雇员真实姓名">
+								<input type="text" name="name" id="name" class="form-control input-sm" placeholder="请输入用户真实姓名">
 							</div>
 							<div class="col-md-4" id="nameMsg">*</div>
 						</div>
 						<div class="form-group" id="passwordDiv">
 							<label class="col-md-2 control-label" for="password">登录密码：</label>
 							<div class="col-md-5">
-								<input type="text" name="password" id="password" class="form-control input-sm" placeholder="请输入雇员真实姓名">
+								<input type="text" name="password" id="password" class="form-control input-sm" placeholder="请输入用户登录密码">
 							</div>
 							<div class="col-md-4" id="passwordMsg">*</div>
 						</div>
@@ -51,16 +51,13 @@
 							<label class="col-md-2 control-label" for="rid">用户角色：</label>
 							<div class="col-md-5">
 								<div class="checkbox-inline">
-									<input type="checkbox" name="rid" id="rid" value="1">管理员
+									<input type="checkbox" name="rid" id="rid" value="1">医生
 								</div>
 								<div class="checkbox-inline">
-									<input type="checkbox" name="rid" id="rid" value="1">公告管理
+									<input type="checkbox" name="rid" id="rid" value="1">普通管理员
 								</div>
 								<div class="checkbox-inline">
-									<input type="checkbox" name="rid" id="rid" value="2">预约管理
-								</div>
-								<div class="checkbox-inline">
-									<input type="checkbox" name="rid" id="rid" value="3">系统设置
+									<input type="checkbox" name="rid" id="rid" value="2">超级管理员
 								</div>
 							</div> 
 							<div class="col-md-4" id="ridMsg">*</div>
